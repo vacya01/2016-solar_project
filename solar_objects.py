@@ -41,6 +41,9 @@ class Star:
     image = None
     """Изображение звезды"""
 
+    dx = 0
+    dy = 0
+
 
 class Planet:
     """Тип данных, описывающий планету.
@@ -77,6 +80,9 @@ class Planet:
 
     color = "green"
     """Цвет планеты"""
+
+    dx = 0
+    dy = 0
 
     image = None
     """Изображение планеты"""
